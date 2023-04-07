@@ -5,7 +5,7 @@ var outputElement = document.querySelector('.output');
 
 // function to scramble word 
 function scrambler() {
-    
+
     // get value of word 
     var word = wordElement.value;
     // split the letters of the word 
@@ -29,6 +29,5 @@ function scrambler() {
     // display my new word on html
     outputElement.innerHTML = new_word;
 }
-
 // add addEventListener
 scrambleBtn.addEventListener("click", scrambler);
