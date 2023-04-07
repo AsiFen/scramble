@@ -10,7 +10,6 @@ function scrambler() {
     var input = userInputElement.value;
     // split the input  
     var split_input = input.split('');
-    alert(letters)
     //variable to store the current letter
     hold_current = '';
     // loop through the length of the array using length of letters
