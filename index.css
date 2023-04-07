@@ -1,0 +1,10 @@
+.result {
+    margin-top: 1em;
+    text-align: center;
+padding: 2em;
+border: solid;
+border-color: blueviolet;
+border-radius: 1px;
+color: blue;
+width: 20em;
+}
